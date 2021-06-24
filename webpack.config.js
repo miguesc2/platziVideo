@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/' //en teoria si estoy en un video y no coloco esta linea, da error, pero no me da error, wtf
+    //publicPath: '/' //en teoria si estoy en un video y no coloco esta linea, da error, pero realmente no da error?
   },
   resolve: {
     extensions: ['.js', '.jsx']
