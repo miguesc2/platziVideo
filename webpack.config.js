@@ -45,7 +45,7 @@ module.exports = {
           {
             'loader': 'file-loader',
             options: {
-              name: 'platziVideo/build/assets/[hash].[ext]'
+              name: 'assets/[hash].[ext]'
             }
           }
         ]
@@ -61,7 +61,7 @@ module.exports = {
       filename: './index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'platziVideo/build/assets/[name].css'
+      filename: 'assets/[name].css'
     }),
   ]
 };
