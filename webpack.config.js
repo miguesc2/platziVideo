@@ -45,7 +45,7 @@ module.exports = {
           {
             'loader': 'file-loader',
             options: {
-              name: 'assets/[hash].[ext]'
+              name: 'platziVideo/build/assets/[hash].[ext]'
             }
           }
         ]
