@@ -15,7 +15,7 @@ const App = () => (
         <Route exact path="/login" component={ Login } />
         <Route exact path="/register" component={ Register } />
         <Route exact path="/player/:id" component={ Player } />
-        <Route exact path="/platziVideo" component={ Home } />
+        <Route exact path="/platziVideo/build" component={ Home } />
         <Route component={ NotFound } />
       </Switch>
     </Layout>
