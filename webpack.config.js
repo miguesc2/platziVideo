@@ -61,7 +61,7 @@ module.exports = {
       filename: './index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'assets/[name].css'
+      filename: 'platziVideo/build/assets/[name].css'
     }),
   ]
 };
